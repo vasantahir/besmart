@@ -148,10 +148,10 @@ li.nav-item {
 }
 
 
-    /* ========================================================== 
+/* ========================================================== 
 			            01.FEATURES SECTION                    
      ========================================================== */
-     
+
 
 .row {
     justify-content: center;
@@ -162,13 +162,15 @@ h2.Our-LatestWork-heading {
     font-size: 38px;
 }
 
-.Amazing-heading{
+.Amazing-heading {
     /* text-align: center; */
     margin-bottom: 10px;
 }
-.bi-star-fill{
+
+.bi-star-fill {
     color: var(--background-color);
 }
+
 .Amazing-heading::before,
 .Amazing-heading::after {
     content: '';
@@ -178,11 +180,17 @@ h2.Our-LatestWork-heading {
     display: inline-block;
     vertical-align: middle;
 }
-.Our-LatestWork-lorem{
+
+.Our-LatestWork-lorem {
     font-size: 17px;
     color: rgb(112, 112, 112);
 
 }
+
+.Our-LatestWork {
+    padding-top: 10px;
+}
+
 .box {
     display: flex;
     flex-direction: column;
@@ -196,7 +204,7 @@ h2.Our-LatestWork-heading {
     background-color: var(--background-color);
     padding: 15px;
     border-radius: 10px;
-    margin: 20px 0px 10px 0px;
+    /* margin: 20px 0px 10px 0px; */
 }
 
 .features-heading {
@@ -212,7 +220,7 @@ h2.Our-LatestWork-heading {
 }
 
 
-    /* ========================================================== 
+/* ========================================================== 
 			            02.DESIGN SECTION                    
      ========================================================== */
 
@@ -253,12 +261,13 @@ p.design-lorem {
     font-size: 17px;
     font-weight: 600;
 }
-.design-btn:hover{
+
+.design-btn:hover {
     background-color: #3498db;
 }
 
 
-    /* ========================================================== 
+/* ========================================================== 
 			            03.BACKGROUND-IMG                    
      ========================================================== */
 
@@ -288,22 +297,22 @@ p.design-lorem {
 .bg-heading {
     font-size: 40px;
     margin-bottom: 0px;
-    color:rgb(233, 233, 233);
+    color: rgb(233, 233, 233);
 }
 
 .bg-lorem {
-    color:rgb(233, 233, 233);
+    color: rgb(233, 233, 233);
     font-style: italic;
     font-size: 17px;
 }
 
 
-    /* ========================================================== 
+/* ========================================================== 
 			            04.OUR LATEST WORK                    
      ========================================================== */
 
 
-.Our-Latest-heading{
+.Our-Latest-heading {
     padding: 90px 0px;
 }
 
@@ -311,8 +320,8 @@ p.design-lorem {
     margin-top: 20px;
 }
 
-#FEATURES{
-padding: 90px 0px 20px 0px;
+#FEATURES {
+    padding: 90px 0px 20px 0px;
 }
 
 .Our-LatestWork-part {
@@ -325,7 +334,7 @@ padding: 90px 0px 20px 0px;
 }
 
 
-    /* ========================================================== 
+/* ========================================================== 
 			            05.LOGIN PAGE                    
      ========================================================== */
 
@@ -365,13 +374,15 @@ padding: 90px 0px 20px 0px;
     border-radius: 5px;
     margin-left: 20px;
 }
-.input-1{
+
+.input-1 {
     padding: 15px 60px 15px 10px;
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid white;
     border-radius: 5px;
     margin-left: 20px;
 }
+
 /* .input .placeholder{
     color: var(--text-color);
 } */
@@ -392,6 +403,16 @@ padding: 90px 0px 20px 0px;
     border: 1px solid var(--text-color);
 }
 
+/* ========================================================== 
+			            06.SLIDER                    
+     ========================================================== */
+
+
+.Our-LatestWork-part-1 {
+    text-align: center;
+    padding-top: 80px;
+}
+
 .slider-section {
     margin-top: 40px;
 }
@@ -410,30 +431,42 @@ h6.slider-name {
     font-size: 20px;
     padding: 20px 0px 0px 0px;
 }
-.slider-name:hover{
-    color:#3498db;
+
+.slider-name:hover {
+    color: #3498db;
     transition: ease-in-out 0.50s;
 }
+
 p.slider-lorem {
     text-align: center;
     font-style: italic;
 }
 
 
-    /* ========================================================== 
+/* ========================================================== 
 			            06.AMAZING SERVICES                    
      ========================================================== */
 
+.our-latest {
+    padding: 30px 0px 20px 0px;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
 
-.part-amazing{
+.part-amazing {
     font-size: 35px;
     font-weight: 700;
     color: #414141;
 }
+
+.our-latest-lorem {
+    margin-bottom: 0px;
+}
+
 .amazing-services-one {
     background-color: rgb(238, 240, 241);
     margin: 50px 0px 0px 0px;
-    padding: 80px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
 }
 
 .imac2-img {
@@ -458,7 +491,7 @@ p.slider-lorem {
 }
 
 
-    /* ========================================================== 
+/* ========================================================== 
 			            07.SEEN ENOUGH ? LET'S GET STARTED                    
      ========================================================== */
 
@@ -509,25 +542,30 @@ p.slider-lorem {
     background-color: rgb(52, 177, 196);
     color: var(--text-color);
 }
-.seen-enough-btn:hover{
+
+.seen-enough-btn:hover {
     background-color: #3498db;
     transition: ease-in-out 0.25s;
 }
 
 
-    /* ========================================================== 
+/* ========================================================== 
 			            08.OUR LATEST NEWS                    
      ========================================================== */
 
 
-.our-latest {
+
+.our-latest-3 {
     text-align: center;
-    margin-bottom: 20px;
+    padding: 60px 0px 50px 0px;
 }
-.blog-heading{
+
+.blog-heading {
+
     font-size: 35px;
     font-size: 700;
 }
+
 .our-latest-lorem {
     color: rgb(121, 121, 121);
     font-size: 17px;
@@ -568,7 +606,7 @@ p.slider-lorem {
 }
 
 
-    /* ========================================================== 
+/* ========================================================== 
 			            09.FOUNDER FREELANCER                    
      ========================================================== */
 
@@ -620,7 +658,9 @@ p.slider-lorem {
     font-style: italic;
     margin-bottom: 0px;
 }
-.founder-befor::before,.founder-befor::after{
+
+.founder-befor::before,
+.founder-befor::after {
     content: '';
     height: 140px;
     width: 0.50px;
@@ -629,13 +669,16 @@ p.slider-lorem {
     vertical-align: middle;
 
 }
+
 .founder-befor {
     padding-left: 70px;
 }
-.founder-lorem-h{
+
+.founder-lorem-h {
     display: flex;
-    align-items:center;
+    align-items: center;
 }
+
 .founder-part-2 {
     color: var(--text-color);
     font-size: 20px;
@@ -646,7 +689,7 @@ p.slider-lorem {
 }
 
 
-    /* ========================================================== 
+/* ========================================================== 
 			            10.VIDEO PART                    
      ========================================================== */
 
@@ -678,7 +721,7 @@ p.slider-lorem {
 }
 
 
-    /* ========================================================== 
+/* ========================================================== 
 			            11.LAPTOP PART                    
      ========================================================== */
 
@@ -686,7 +729,7 @@ p.slider-lorem {
 .laptop {
     background-color: var(--background-color);
     padding: 50px 0px 20px 0px;
-    margin: 80px 0px;
+    margin: 80px 0px 30px 0px;
 }
 
 .design-part-1 {
@@ -730,7 +773,7 @@ p.slider-lorem {
 }
 
 
-    /* ========================================================== 
+/* ========================================================== 
 			            12.CARD                    
      ========================================================== */
 
@@ -791,13 +834,13 @@ p.slider-lorem {
 }
 
 .card-lorem-2 {
-    
+    font-size: 18px;
     text-align: center;
     margin-bottom: 50px;
 }
 
 
-    /* ========================================================== 
+/* ========================================================== 
 			            13.LOGIN PART                    
      ========================================================== */
 
@@ -817,17 +860,21 @@ p.slider-lorem {
     font-weight: 700;
     color: rgb(219, 219, 219);
 }
-.Amazing-heading-1::before,.Amazing-heading-1::after{
+
+.Amazing-heading-1::before,
+.Amazing-heading-1::after {
     content: '';
     height: 1px;
     width: 80px;
-    background-color:#93999c ;
+    background-color: #93999c;
     display: inline-block;
     vertical-align: middle;
 }
-.star-1{
+
+.star-1 {
     color: #d2d2d2;
 }
+
 .Get-In-Touch-lorem {
     font-size: 17px;
     color: rgb(192, 192, 192);
@@ -840,7 +887,7 @@ p.slider-lorem {
 .input-text {
     width: 100%;
     height: 50px;
-    background-color: #9a9a9a;
+    background-color: #393f43;
     border: 1px solid rgb(157, 157, 157);
     padding-left: 20px;
     border-radius: 5px;
@@ -880,7 +927,7 @@ p.slider-lorem {
 }
 
 /* footer */
-    /* ========================================================== 
+/* ========================================================== 
 			            14.FOOTER                    
      ========================================================== */
 .footer {
@@ -1099,8 +1146,33 @@ input::placeholder {
         font-size: 35px;
     }
 
+    .col-lg-6.login-page {
+        margin: 20px 0px;
+    }
+
+    .input-1 {
+        padding: 15px 38px 15px 10px;
+    }
+
+    .login-heading {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .login-lorem {
+        padding: 0px 0px 10px 0px;
+    }
+
+    .input-3 {
+        margin-left: 0px;
+    }
+
     .col-lg-4.box {
         padding: 0px 100px;
+    }
+
+    .register-btn {
+        max-width: 420px;
+        margin-left: 0px;
     }
 
     .col-lg-5.Our-LatestWork-part {
@@ -1127,6 +1199,51 @@ input::placeholder {
     iframe.video-play {
         width: 550px;
         margin-bottom: 20px;
+    }
+
+    .founder-photo {
+        display: flex;
+        align-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .founder-befor {
+        padding-left: 10px;
+    }
+
+    .founder-part-2 {
+        color: var(--text-color);
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 32px;
+        padding: 0px 0px 0px 0px;
+        margin-bottom: 0px;
+    }
+
+    .video-carturn {
+        /* display: flex; */
+        justify-content: start;
+    }
+
+    .input-text {
+        width: 100%;
+        height: 50px;
+        /* background-color: #474747; */
+        background-color: #393f43;
+        border: 1px solid rgb(157, 157, 157);
+        padding-left: 20px;
+        border-radius: 5px;
+    }
+
+    .star-input {
+        padding-right: calc(var(--bs-gutter-x) * 0) !important;
+        padding-left: calc(var(--bs-gutter-x) * 0) !important;
+    }
+
+    .star-2 {
+        padding-left: calc(var(--bs-gutter-x) * 0) !important;
     }
 }
 
