@@ -75,7 +75,6 @@ li.nav-item {
 
 .nav-text {
     color: var(--text-color);
-    /* margin-left: 180px; */
 }
 
 .heading {
@@ -108,6 +107,7 @@ li.nav-item {
 
 .img-row {
     text-align: center;
+    background-color: #eef0f1;
 }
 
 .partner2 {
@@ -148,9 +148,10 @@ li.nav-item {
 }
 
 
-
-    /* FEATURES SECTION */
-
+    /* ========================================================== 
+			            01.FEATURES SECTION                    
+     ========================================================== */
+     
 
 .row {
     justify-content: center;
@@ -210,15 +211,11 @@ h2.Our-LatestWork-heading {
     color: rgb(144, 144, 144);
 }
 
-/* -- design section-- */
 
-.design-part {
-    /* display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    justify-content: center; */
-}
+    /* ========================================================== 
+			            02.DESIGN SECTION                    
+     ========================================================== */
+
 
 .design {
     background-color: rgb(238, 240, 241);
@@ -260,7 +257,11 @@ p.design-lorem {
     background-color: #3498db;
 }
 
-/* -- background-img -- */
+
+    /* ========================================================== 
+			            03.BACKGROUND-IMG                    
+     ========================================================== */
+
 
 .bg-1 {
     /* min-height: 150px; */
@@ -296,7 +297,12 @@ p.design-lorem {
     font-size: 17px;
 }
 
-/* Our Latest Work */
+
+    /* ========================================================== 
+			            04.OUR LATEST WORK                    
+     ========================================================== */
+
+
 .Our-Latest-heading{
     padding: 90px 0px;
 }
@@ -318,7 +324,11 @@ padding: 90px 0px 20px 0px;
     text-align: center;
 }
 
-/* login page */
+
+    /* ========================================================== 
+			            05.LOGIN PAGE                    
+     ========================================================== */
+
 
 .login {
     background-color: var(--background-color);
@@ -409,7 +419,11 @@ p.slider-lorem {
     font-style: italic;
 }
 
-/* Amazing Services */
+
+    /* ========================================================== 
+			            06.AMAZING SERVICES                    
+     ========================================================== */
+
 
 .part-amazing{
     font-size: 35px;
@@ -443,7 +457,11 @@ p.slider-lorem {
     padding-right: 25px;
 }
 
-/* Seen enough? Let's get started. */
+
+    /* ========================================================== 
+			            07.SEEN ENOUGH ? LET'S GET STARTED                    
+     ========================================================== */
+
 
 .bg3 {
     background-image: url('../website photo/bg3.jpg');
@@ -497,7 +515,10 @@ p.slider-lorem {
 }
 
 
-/* Our Latest News */
+    /* ========================================================== 
+			            08.OUR LATEST NEWS                    
+     ========================================================== */
+
 
 .our-latest {
     text-align: center;
@@ -546,8 +567,10 @@ p.slider-lorem {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Founder Freelancer */
 
+    /* ========================================================== 
+			            09.FOUNDER FREELANCER                    
+     ========================================================== */
 
 
 .founder {
@@ -623,16 +646,14 @@ p.slider-lorem {
 }
 
 
-/* video part */
+    /* ========================================================== 
+			            10.VIDEO PART                    
+     ========================================================== */
+
 
 .video-carturn {
     display: flex;
     justify-content: center;
-}
-
-.video-text {
-    /* padding: 0px 0px 0px 20px; */
-    /* display: initial; */
 }
 
 .video-heading {
@@ -656,7 +677,11 @@ p.slider-lorem {
     background-color: #3498db;
 }
 
-/* laptop part */
+
+    /* ========================================================== 
+			            11.LAPTOP PART                    
+     ========================================================== */
+
 
 .laptop {
     background-color: var(--background-color);
@@ -704,7 +729,11 @@ p.slider-lorem {
     transition: ease-in-out 1s;
 }
 
-/*  card */
+
+    /* ========================================================== 
+			            12.CARD                    
+     ========================================================== */
+
 
 .card-latest-lorem-heading {
     font-size: 35px;
@@ -767,7 +796,11 @@ p.slider-lorem {
     margin-bottom: 50px;
 }
 
-/* login part */
+
+    /* ========================================================== 
+			            13.LOGIN PART                    
+     ========================================================== */
+
 
 .our-latest-1 {
     text-align: center;
@@ -847,7 +880,9 @@ p.slider-lorem {
 }
 
 /* footer */
-
+    /* ========================================================== 
+			            14.FOOTER                    
+     ========================================================== */
 .footer {
     background-color: #2f3539;
 }
