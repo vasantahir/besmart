@@ -12,7 +12,9 @@ body {
 img {
     width: 100%;
 }
-
+p{
+    margin-bottom: 0px !important;
+}
 :root {
     --background-color: rgb(52, 177, 196);
     --text-color: white;
@@ -61,9 +63,9 @@ img {
     overflow-y: scroll;
 }
 
-#navbar-link-1 {
+/* #navbar-link-1 {
     padding-top: 20px;
-}
+} */
 
 .nav-link:hover {
     color: var(--background-color) !important;
@@ -470,7 +472,7 @@ p.slider-lorem {
      ========================================================== */
 
 .our-latest {
-    padding: 30px 0px 20px 0px;
+    padding: 90px 0px 20px 0px;
     text-align: center;
     /* margin-bottom: 20px; */
 }
@@ -751,7 +753,7 @@ p.slider-lorem {
 .laptop {
     background-color: var(--background-color);
     padding: 50px 0px 20px 0px;
-    margin: 80px 0px 30px 0px;
+    margin: 80px 0px 0px 0px;
 }
 
 .design-part-1 {
@@ -858,9 +860,11 @@ p.slider-lorem {
 .card-lorem-2 {
     font-size: 18px;
     text-align: center;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
-
+.col-lg-4.box-1 {
+    max-width: 350px;
+}
 
 /* ========================================================== 
 			            13.LOGIN PART                    
@@ -987,6 +991,7 @@ p.slider-lorem {
 
 .footer-lorem {
     color: rgb(192, 192, 192);
+    padding-bottom: 15px;
 }
 
 .footer-link {
@@ -1419,7 +1424,26 @@ input::placeholder {
     .star-2 {
         padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
     }
+    input.input-text.input-text-1 {
+        margin: 22px 0px 0px 0px !important;
+    }
+    .Our-LatestWork-part-1 {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .col-lg-6.design-part-1 {
+        padding-bottom: 20px;
+    }
+    .payment {
+        color: var(--text-color);
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+    .login {
+        background-color: var(--background-color);
+        padding: 40px 0px;
 
+    }
 }
 
 @media screen and (max-width:376px) {
@@ -1487,7 +1511,7 @@ input::placeholder {
 
     .login-heading {
         color: var(--text-color);
-        font-size: 35px;
+        font-size: 32px;
         padding: 0px;
     }
 
@@ -1495,6 +1519,7 @@ input::placeholder {
         color: var(--text-color);
         max-width: 550px;
         padding: 0px 0px 10px 0px;
+        font-size: 17px;
     }
 
     .register-btn {
@@ -1510,7 +1535,7 @@ input::placeholder {
     }
 
     .founder {
-        height: 300px;
+        height: auto;
     }
 
     .founder-part-2 {
@@ -1518,12 +1543,33 @@ input::placeholder {
         font-size: 18px;
         font-weight: 400;
         line-height: 32px;
-        padding: 10px 0px 3px 0px;
+        padding: 10px 20px;
         margin-bottom: 0px;
     }
 
     .input-text-1 {
         margin-top: 22px;
+    }
+    .heading {
+        padding-top: 90px;
+        padding-left: 20px;
+    }
+    .col-md-4.Our-LatestWork {
+        margin-top: 0px;
+    }
+    .payment {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .design-heading-1 {
+        color: var(--text-color);
+        font-size: 30px;
+    }
+    .design-part-1 {
+        padding-bottom: 20px;
+    }
+    p.payment {
+        font-size: 15px;
     }
 }
 
@@ -1733,14 +1779,4 @@ input::placeholder {
         margin-bottom: 0px;
     }
 
-    .twitter-1:first-child{
-        margin: 0px;
-    }
-    .twitter.twitter-2 {
-        margin-left: 0px;
-    }
-    .twitter {
-        margin-top: 10px;
-        margin-left: 28px;
-    }
 }
