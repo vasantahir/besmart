@@ -12,9 +12,11 @@ body {
 img {
     width: 100%;
 }
-p{
+
+p {
     margin-bottom: 0px !important;
 }
+
 :root {
     --background-color: rgb(52, 177, 196);
     --text-color: white;
@@ -114,9 +116,11 @@ li.nav-item {
     padding-left: 10px;
     padding-top: 20px;
 }
-.lorem-heading{
+
+.lorem-heading {
     padding-top: 0px;
 }
+
 .icon-1 {
     display: inline-block;
     width: 100px;
@@ -176,6 +180,9 @@ li.nav-item {
 			            01.FEATURES SECTION                    
      ========================================================== */
 
+.col-lg-4.box {
+    padding-top: 20px;
+}
 
 .row {
     justify-content: center;
@@ -349,7 +356,7 @@ p.design-lorem {
 }
 
 .Our-LatestWork-part {
-    /* padding: 60px 0px 20px 0px; */
+    padding: 0px 0px 20px 0px;
     text-align: center;
 }
 
@@ -866,6 +873,7 @@ p.slider-lorem {
     text-align: center;
     padding-bottom: 50px;
 }
+
 .col-lg-4.box-1 {
     max-width: 350px;
 }
@@ -919,7 +927,7 @@ p.slider-lorem {
 }
 
 .row-input {
-    --bs-gutter-x: 3.5rem !important;
+    /* --bs-gutter-x: 3.5rem !important; */
 }
 
 .input-text {
@@ -1083,7 +1091,7 @@ input::placeholder {
 
     .Our-LatestWork-lorem {
         text-align: center;
-        font-size: 15px;
+        font-size: 17px;
     }
 
     p.design-lorem-1 {
@@ -1126,7 +1134,7 @@ input::placeholder {
     }
 
     .design-heading {
-        font-size: 29px;
+        font-size: 27px;
         padding: 0px 0px 15px 0px;
     }
 
@@ -1195,6 +1203,11 @@ input::placeholder {
         display: flex;
         align-items: center;
     }
+
+    .payment {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
 }
 
 @media screen and (max-width:992px) {
@@ -1231,7 +1244,7 @@ input::placeholder {
     }
 
     .col-lg-4.box {
-        padding: 0px 100px;
+        padding: 20px 100px;
     }
 
     .register-btn {
@@ -1324,9 +1337,22 @@ input::placeholder {
     .section-part {
         margin-left: 20px;
     }
+
+    .col-lg-2.col-md-4.col-sm-5.text {
+        padding-top: 20px;
+    }
+    .col-md-4.star-input {
+        padding-left: 0px;
+    }
+    .col-md-8.star-2 {
+        padding-right: 5px;
+    }
+    .card-lorem-2 {
+        padding-bottom: 40px;
+    }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:769px) {
     .navbar-logo {
         display: flex;
         flex-wrap: wrap;
@@ -1359,9 +1385,11 @@ input::placeholder {
     .box {
         margin-bottom: 0px;
     }
+
     .founder-befor {
         display: none;
     }
+
     .founder {
         height: auto;
         margin: 50px 0px;
@@ -1370,24 +1398,39 @@ input::placeholder {
         padding: 35px 0px;
         align-items: center;
     }
+
     input.input-text.input-text-1 {
-        margin-left:0px;
-        margin-top: 22px;
+        margin-left: 0px;
+        margin-top: 0px;
     }
+
     .section-part {
-        margin-left:0px;
+        margin-left: 0px;
     }
-    .star-2 {
+
+    /* .star-2 {
         padding-left: calc(var(--bs-gutter-x) * .5) !important;
+    } */
+
+    .col-md-8.star-2 {
+        padding-right: 0px;
     }
     .founder-photo {
         padding-bottom: 20px;
     }
+    .form-control {
+        display: block;
+        width: 98% !important;
+    }
 }
 
 @media screen and (max-width:576px) {
+    .heading {
+        padding-top: 100px;
+    }
+
     .col-lg-4.box {
-        padding: 0px 20px;
+        padding:15px 20px;
     }
 
     .input-3 {
@@ -1428,40 +1471,58 @@ input::placeholder {
     .star-2 {
         padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
     }
+
     input.input-text.input-text-1 {
         margin: 22px 0px 0px 0px !important;
     }
+
     .Our-LatestWork-part-1 {
         text-align: center;
         padding-top: 30px;
     }
+
     .col-lg-6.design-part-1 {
         padding-bottom: 20px;
     }
+
     .payment {
         color: var(--text-color);
         margin-left: 0px;
         padding-top: 0px;
     }
+
     .login {
         background-color: var(--background-color);
         padding: 40px 0px;
+    }
 
+    .col-md-4.Our-LatestWork {
+        margin-top: 10px;
+    }
+
+    .partner2 {
+        display: inline-block;
+        width: 150px;
+        margin-left: 20px;
+        padding: 15px 0px;
+        opacity: 0.5;
     }
 }
 
 @media screen and (max-width:376px) {
-    .bg{
+    .bg {
         height: 80vh;
     }
+
     .heading {
         padding-top: 130px;
         padding-left: 20px;
+        font-size: 25px;
     }
+
     .partner2 {
         margin-left: 0px;
         padding: 20px 0px;
-
     }
 
     .contact-btn {
@@ -1473,7 +1534,7 @@ input::placeholder {
 
 
     .col-lg-4.box {
-        padding: 0px 20px;
+        padding: 15px 20px;
     }
 
     .input-3 {
@@ -1557,32 +1618,43 @@ input::placeholder {
     .input-text-1 {
         margin-top: 22px;
     }
-  
+
     .col-md-4.Our-LatestWork {
         margin-top: 0px;
     }
+
     .payment {
         padding-top: 0px;
         margin-left: 0px;
     }
+
     .design-heading-1 {
         color: var(--text-color);
         font-size: 30px;
     }
+
     .design-part-1 {
         padding-bottom: 20px;
     }
+
     p.payment {
         font-size: 15px;
     }
+
     .video-heading {
         font-size: 24px;
     }
+
     .card-latest-lorem-heading {
         font-size: 29px;
     }
+
     .card-lorem-2 {
         padding-bottom: 30px;
+    }
+
+    .col-lg-2.col-md-4.col-sm-5.text {
+        padding-top: 20px;
     }
 }
 
