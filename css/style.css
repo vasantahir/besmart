@@ -100,7 +100,7 @@ li.nav-item {
 
 .heading {
     font-size: 40px;
-    padding-top: 170px;
+    padding-top: 160px;
     padding-bottom: 20px;
     font-weight: 700;
     max-width: 550px;
@@ -114,7 +114,9 @@ li.nav-item {
     padding-left: 10px;
     padding-top: 20px;
 }
-
+.lorem-heading{
+    padding-top: 0px;
+}
 .icon-1 {
     display: inline-block;
     width: 100px;
