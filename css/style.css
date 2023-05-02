@@ -464,6 +464,7 @@ h6.slider-name {
 p.slider-lorem {
     text-align: center;
     font-style: italic;
+    padding-bottom: 15px;
 }
 
 
@@ -472,7 +473,7 @@ p.slider-lorem {
      ========================================================== */
 
 .our-latest {
-    padding: 90px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
     text-align: center;
     /* margin-bottom: 20px; */
 }
@@ -1447,7 +1448,13 @@ input::placeholder {
 }
 
 @media screen and (max-width:376px) {
-
+    .bg{
+        height: 80vh;
+    }
+    .heading {
+        padding-top: 120px;
+        padding-left: 20px;
+    }
     .partner2 {
         margin-left: 0px;
         padding: 20px 0px;
@@ -1460,10 +1467,7 @@ input::placeholder {
         text-align: center;
     }
 
-    .heading {
-        font-size: 30px;
-        padding-top: 115px;
-    }
+
 
     .col-lg-4.box {
         padding: 0px 20px;
@@ -1550,10 +1554,7 @@ input::placeholder {
     .input-text-1 {
         margin-top: 22px;
     }
-    .heading {
-        padding-top: 90px;
-        padding-left: 20px;
-    }
+  
     .col-md-4.Our-LatestWork {
         margin-top: 0px;
     }
@@ -1570,6 +1571,15 @@ input::placeholder {
     }
     p.payment {
         font-size: 15px;
+    }
+    .video-heading {
+        font-size: 24px;
+    }
+    .card-latest-lorem-heading {
+        font-size: 29px;
+    }
+    .card-lorem-2 {
+        padding-bottom: 30px;
     }
 }
 
