@@ -1331,11 +1331,11 @@ input::placeholder {
     }
 
     input.input-text.input-text-1 {
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
 
     .section-part {
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
 
     .col-lg-2.col-md-4.col-sm-5.text {
@@ -1349,6 +1349,15 @@ input::placeholder {
     }
     .card-lorem-2 {
         padding-bottom: 40px;
+    }
+    .box{
+        margin-bottom: 0px;
+    }
+    .partner2 {
+        display: inline-block;
+        width: 150px;
+        margin-left: 40px;
+        padding: 25px 0px;
     }
 }
 
@@ -1421,6 +1430,9 @@ input::placeholder {
     .form-control {
         display: block;
         width: 98% !important;
+    }
+    .partner2 {
+        padding: 20px 0px;
     }
 }
 
