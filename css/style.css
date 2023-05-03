@@ -6,7 +6,6 @@
 html,
 body {
     overflow-x: hidden;
-
 }
 
 img {
@@ -62,7 +61,7 @@ p {
 
 #navbarTogglerDemo02 {
     max-height: 300px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 /* #navbar-link-1 {
@@ -107,6 +106,8 @@ li.nav-item {
     font-weight: 700;
     max-width: 550px;
     color: rgb(234, 234, 234);
+    animation: fadein ease-in-out 1s;
+    visibility: visible; 
 }
 
 .lorem {
@@ -115,8 +116,26 @@ li.nav-item {
     color: rgb(219, 219, 219);
     padding-left: 10px;
     padding-top: 20px;
+    animation: fadein ease-in-out 2s;
+    /* animation-delay: 1s;*/
+    visibility: visible; 
 }
-
+.fadeIn{
+    animation: fadein ease-in-out 3s;
+    visibility: visible; 
+}
+.fadeIn{
+    animation: fadein ease-in-out 4s;
+    visibility: visible; 
+}
+@keyframes fadein{
+    from{
+       opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
 .lorem-heading {
     padding-top: 0px;
 }
