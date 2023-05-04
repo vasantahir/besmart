@@ -90,7 +90,11 @@ li.nav-item {
     background-color: var(--background-color);
     color: var(--text-color) !important;
 }
-
+.contact-btn:hover{
+    background-color: white;
+    color:#34b1c4 !important;
+    border: 1px solid var(--background-color);
+}
 .nav-text {
     color: var(--text-color);
 }
@@ -106,8 +110,6 @@ li.nav-item {
     font-weight: 700;
     max-width: 550px;
     color: rgb(234, 234, 234);
-    animation: fadein ease-in-out 1s;
-    visibility: visible; 
 }
 
 .lorem {
@@ -116,26 +118,9 @@ li.nav-item {
     color: rgb(219, 219, 219);
     padding-left: 10px;
     padding-top: 20px;
-    animation: fadein ease-in-out 2s;
-    /* animation-delay: 1s;*/
-    visibility: visible; 
+    
 }
-.fadeIn{
-    animation: fadein ease-in-out 3s;
-    visibility: visible; 
-}
-.fadeIn{
-    animation: fadein ease-in-out 4s;
-    visibility: visible; 
-}
-/* @keyframes fadein{
-    from{
-       opacity: 0%;
-    }
-    to{
-        opacity: 100%;
-    }
-} */
+
 .lorem-heading {
     padding-top: 0px;
 }
@@ -502,7 +487,7 @@ p.slider-lorem {
      ========================================================== */
 
 .our-latest {
-    padding: 0px 0px 20px 0px;
+    padding: 50px 0px 20px 0px;
     text-align: center;
     /* margin-bottom: 20px; */
 }
@@ -584,6 +569,7 @@ p.slider-lorem {
 .seen-enough-lorem {
     color: var(--text-color);
     font-size: 17px;
+    padding-bottom: 10px;
 }
 
 .seen-enough-btn {
@@ -649,7 +635,7 @@ p.slider-lorem {
     background-color: rgb(52, 177, 196);
     color: var(--text-color);
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin: 15px 0px;
     transition: ease-in-out 0.5s;
 }
 
@@ -759,6 +745,7 @@ p.slider-lorem {
 
 .video-lorem {
     color: rgb(121, 121, 121);
+    padding-bottom: 10px;
 }
 
 .video-btn {
@@ -768,6 +755,7 @@ p.slider-lorem {
     background-color: var(--background-color);
     color: var(--text-color);
     transition: ease-in-out 0.5s;
+    margin-top: 10px;
 }
 
 .video-btn:hover {
@@ -817,6 +805,7 @@ p.slider-lorem {
     border: none;
     border-radius: 5px;
     padding: 10px 25px;
+    margin-top: 15px;
 }
 
 .design-btn-1:hover {
@@ -834,7 +823,7 @@ p.slider-lorem {
 
 .card-latest-lorem-heading {
     font-size: 35px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .card-our-latest-lorem {
