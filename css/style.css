@@ -128,14 +128,14 @@ li.nav-item {
     animation: fadein ease-in-out 4s;
     visibility: visible; 
 }
-@keyframes fadein{
+/* @keyframes fadein{
     from{
        opacity: 0%;
     }
     to{
         opacity: 100%;
     }
-}
+} */
 .lorem-heading {
     padding-top: 0px;
 }
