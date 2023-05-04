@@ -1677,7 +1677,21 @@ input::placeholder {
         padding-top: 20px;
     }
 }
-
+@media screen and (max-width:360px){
+    p.payment {
+        font-size: 17px;
+    }
+    .register-btn {
+        width: 100%;
+    }
+    .login-photo{
+        padding-right: calc(var(--bs-gutter-x) * .0) !important;
+        padding-left: calc(var(--bs-gutter-x) * .0) !important;
+    }
+    h2.design-heading {
+        padding-top: 10px;
+    }
+}
 @media screen and (max-width:320px) {
 
     .box {
@@ -1813,7 +1827,7 @@ input::placeholder {
     .founder {
         min-height: 450px;
         margin: 23px 0px;
-        padding: 180px 0px;
+        /* padding: 180px 0px; */
     }
 
     .founder-photo {
