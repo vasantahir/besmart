@@ -370,7 +370,7 @@ p.design-lorem {
 
 
 .Our-Latest-heading {
-    padding: 90px 0px;
+    padding: 90px 0px 0px 0px;
 }
 
 .col-md-4.Our-LatestWork {
@@ -400,11 +400,11 @@ p.design-lorem {
     --bs-gutter-x: 0rem !important;
      }
 .login {
-    background-color: var(--background-color);
+    padding-top:75px;
 }
-
 #login-section {
     margin: 0px;
+    background-color: var(--background-color);
 }
 
 .col-lg-6.login-photo {
@@ -512,7 +512,7 @@ p.slider-lorem {
      ========================================================== */
 
 .our-latest {
-    padding: 50px 0px 20px 0px;
+    padding: 90px 0px 0px 0px;
     text-align: center;
     /* margin-bottom: 20px; */
 }
@@ -567,7 +567,7 @@ p.slider-lorem {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 
 .bg-color {
@@ -622,7 +622,7 @@ p.slider-lorem {
 
 .our-latest-3 {
     text-align: center;
-    padding: 60px 0px 50px 0px;
+    padding: 90px 0px 50px 0px;
 }
 
 .blog-heading {
@@ -794,11 +794,13 @@ p.slider-lorem {
 
 
 .laptop {
+    padding-top:80px;
+}
+.laptop-sec{
     background-color: var(--background-color);
     padding: 50px 0px 20px 0px;
-    margin: 80px 0px 0px 0px;
+    /* margin: 80px 0px 0px 0px; */
 }
-
 .design-part-1 {
     display: flex;
     flex-direction: column;
@@ -918,7 +920,7 @@ p.slider-lorem {
 
 .our-latest-1 {
     text-align: center;
-    padding: 80px 0px 50px 0px;
+    padding: 90px 0px 50px 0px;
 }
 
 .login-color {
@@ -1213,7 +1215,7 @@ input::placeholder {
 
     .login {
         background-color: var(--background-color);
-        padding: 10px 0px;
+        padding: 0px 0px 10px 0px;
         margin: 50px 0px;
     }
 
@@ -1252,7 +1254,9 @@ input::placeholder {
         align-items: center;
         flex-direction: row;
     }
-
+    .founder-befor{
+        display: none;
+    }
     .heading {
         font-size: 35px;
     }
@@ -1574,19 +1578,39 @@ input::placeholder {
 }
 @media screen and (max-width:426px){
     .bg{
+        height: 81vh;
+    }
+    .row-text {
+        height: 80vh;
+    }
+
+    .founder-photo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+    }
+    p.founder-lorem {
+        text-align: center;
+    }
+    .founder-heading {
+        padding-top: 20px;
+    }
+   p.founder-part-2 {
+    padding: 0px 30px;
+    text-align: justify;
+}
+}
+@media screen and (max-width:376px) {
+    .bg {
         height: 100vh;
     }
     .row-text {
         height: 100vh;
     }
-}
-@media screen and (max-width:376px) {
-    .bg {
-        /* height: 100vh; */
-    }
-
     .heading {
-        /* padding-top: 130px; */
+        padding-top:40px;
         /* padding-left: 20px; */
         font-size: 30px;
     }
@@ -1756,7 +1780,9 @@ input::placeholder {
     .box {
         padding: 10px 5px !important;
     }
-
+    .founder-photo {
+        padding-bottom: 0px;
+    }
     .bg {
         height: 100vh;
     }
