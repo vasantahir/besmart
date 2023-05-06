@@ -1604,7 +1604,7 @@ input::placeholder {
 }
 @media screen and (max-width:376px) {
     .bg {
-        height: 90vh;
+        height: 92vh;
     }
     .row-text {
         height: 100vh;
