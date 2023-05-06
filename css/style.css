@@ -1558,7 +1558,7 @@ input::placeholder {
 
     .login {
         background-color: var(--background-color);
-        padding: 40px 0px;
+        /* padding: 40px 0px; */
     }
 
     .col-md-4.Our-LatestWork {
@@ -1668,7 +1668,7 @@ input::placeholder {
     }
 
     .login {
-        margin-top: 0px;
+        /* margin-top: 0px; */
         padding-top: 0px;
     }
 
@@ -1751,6 +1751,9 @@ input::placeholder {
     .col-lg-2.col-md-4.col-sm-5.text {
         padding-top: 20px;
     }
+    .laptop-sec {
+        padding: 0px 0px 20px 0px;
+    }
 }
 
 @media screen and (max-width:360px) {
@@ -1769,6 +1772,9 @@ input::placeholder {
 
     h2.design-heading {
         padding-top: 10px;
+    }
+    .laptop-sec {
+        padding: 0px 0px 20px 0px;
     }
 }
 
@@ -1810,18 +1816,9 @@ input::placeholder {
         padding: 10px 0px;
         opacity: 0.5;
     }
-
-    .contact-btn {
-        /* text-align: center; */
-        /* width: 150px; */
-    }
-
-    
-
     .icon-1 {
         width: 135px;
     }
-
     .register-btn {
         padding: 10px 20px;
         border: none;
@@ -1979,5 +1976,7 @@ input::placeholder {
         padding-bottom: 0px;
         margin-bottom: 0px;
     }
-
+    .laptop-sec {
+        padding: 0px 0px 20px 0px;
+    }
 }
