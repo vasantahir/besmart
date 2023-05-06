@@ -67,7 +67,7 @@ button.navbar-toggler {
 
 #navbarTogglerDemo02 {
     max-height: 300px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     overflow-x: hidden;
 }
 
@@ -95,7 +95,7 @@ li.nav-item {
 .contact-btn {
     width: 97% ;
     /* margin-right: 20px; */
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     text-decoration: none;
     padding: 10px 30px 10px 20px;
     border: none;
@@ -118,13 +118,13 @@ li.nav-item {
     padding: 20px 0px;
 }
 .row-text{
-    height: 85vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.heading {
+.heading{
     font-size: 40px;
     /* padding-top: 160px; */
     padding-bottom: 20px;
@@ -139,11 +139,12 @@ li.nav-item {
     color: rgb(219, 219, 219);
     padding-left: 10px;
     padding-top: 20px;
-
+    font-size: 17px;
 }
 
 .lorem-heading {
     padding-top: 0px;
+    font-size: 17px;
 }
 
 .icon-1 {
@@ -1238,6 +1239,9 @@ input::placeholder {
         padding-top: 0px;
         padding-bottom: 10px;
     }
+    .heading {
+        font-size: 38px;
+    }
 }
 
 @media screen and (max-width:992px) {
@@ -1406,12 +1410,12 @@ input::placeholder {
     }
 
     .heading {
-        font-size: 30px;
+        /* font-size: 30px;
         padding-top: 173px;
         padding-bottom: 20px;
         font-weight: 700;
         max-width: 500px;
-        color: rgb(234, 234, 234);
+        color: rgb(234, 234, 234); */
     }
 
     .box {
@@ -1475,8 +1479,15 @@ input::placeholder {
 }
 
 @media screen and (max-width:576px) {
+    /* .bg{
+        height: 100vh;
+    }
+    .row-text {
+        height: 100vh;
+    } */
     .heading {
-        padding-top: 100px;
+        font-size: 32px;
+        padding-top: 50px;
     }
 
     .col-lg-4.box {
@@ -1560,16 +1571,24 @@ input::placeholder {
     .contact-btn {
         width: 93%;
 }
-
+}
+@media screen and (max-width:426px){
+    .bg{
+        height: 100vh;
+    }
+    .row-text {
+        height: 100vh;
+    }
+}
 @media screen and (max-width:376px) {
     .bg {
-        height: 80vh;
+        /* height: 100vh; */
     }
 
     .heading {
-        padding-top: 130px;
-        padding-left: 20px;
-        font-size: 25px;
+        /* padding-top: 130px; */
+        /* padding-left: 20px; */
+        font-size: 30px;
     }
 
     .partner2 {
@@ -1730,7 +1749,10 @@ input::placeholder {
 }
 
 @media screen and (max-width:320px) {
-
+    .heading {
+        padding-top: 50px;
+        font-size: 25px;
+    }
     .box {
         padding: 10px 5px !important;
     }
@@ -1768,10 +1790,7 @@ input::placeholder {
         /* width: 150px; */
     }
 
-    .heading {
-        padding-top: 80px;
-        font-size: 25px;
-    }
+    
 
     .icon-1 {
         width: 135px;
