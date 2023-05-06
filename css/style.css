@@ -1604,13 +1604,13 @@ input::placeholder {
 }
 @media screen and (max-width:376px) {
     .bg {
-        height: 100vh;
+        height: 90vh;
     }
     .row-text {
         height: 100vh;
     }
     .heading {
-        padding-top:40px;
+        padding-top:0px;
         /* padding-left: 20px; */
         font-size: 30px;
     }
@@ -1754,6 +1754,9 @@ input::placeholder {
     .laptop-sec {
         padding: 0px 0px 20px 0px;
     }
+    .design-lorem-one-1 {
+        padding-right: 0px;
+   }
 }
 
 @media screen and (max-width:360px) {
@@ -1776,6 +1779,9 @@ input::placeholder {
     .laptop-sec {
         padding: 0px 0px 20px 0px;
     }
+    .design-lorem-one-1 {
+        padding-right: 0px;
+   }
 }
 
 @media screen and (max-width:320px) {
@@ -1975,6 +1981,9 @@ input::placeholder {
         color: rgb(121, 121, 121);
         padding-bottom: 0px;
         margin-bottom: 0px;
+    }
+    .design-lorem-one-1 {
+         padding-right: 0px;
     }
     .laptop-sec {
         padding: 0px 0px 20px 0px;
